@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaining</title>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".text").click(function(){
+                alert("text = "+$("p").html());
+            })
+            $(".html").click(function(){
+                alert("text = "+$("h1").text());
+                alert("text = "+$("p").text());
+
+            })
+            $(".value").click(function(){
+                alert("text = "+$("input").val());
+            })
+        })
+    </script>
+</head>
+
+<body>
+    
+    <p>This is <u>Paragraph</u></p>
+    Name : <input type="text" value="abc">
+    <h1>This is Heading1 Tag</h1>
+    <br>
+    <button class="text">Show text</button>
+    <button class="html">Show Html</button>
+    <button class="value">Show Value</button>
+</body>
+
+</html>

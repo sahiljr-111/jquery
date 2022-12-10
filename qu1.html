@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice question 1</title>
+    <style>
+        div {
+            border: 1px solid red;
+        }
+    </style>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#in").click(function () {
+                $("div").animate({ left:"200px", width: "300px", height: "50px",fontSize:"3em",borderWidth:"10px"}, 2000);
+            });
+            $("#out").click(function () {
+                $("div").animate({ left:"10px",width: "100px", height: "50px",fontSize:"1em",borderWidth:"1px"}, 2000);
+            });
+        })
+    </script>
+
+</head>
+
+<body>
+    <button id="in">Click in</button>
+    <button id="out">Click out</button>
+    <div style="background-color: yellow; width: 100px;height: 50px; font-size: 1em; position: absolute;">hello</div>
+
+</body>
+
+</html>
