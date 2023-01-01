@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svpatel>
+    <din>Chintu thakkar</din>
+    <bca>
+        <div1>
+            <hr>viral patel</hr>
+            <students>84
+                <stud1>
+                    <fname>Sahil</fname>
+                    <lname>radadiya</lname>
+                    <rollnum>167</rollnum>
+                </stud1>
+            </students>
+        </div1>
+        <div2>
+            <hr>bipin jadav</hr>
+            <students>84</students>
+        </div2>
+        <div3>
+            <hr>Piyush arora</hr>
+            <students>84</students>
+        </div3>
+        <div4>
+            <hr>rana</hr>
+            <students>84</students>
+        </div4>
+    </bca>
+    <bba>
+        <div1>
+            <hr>viral patel</hr>
+            <students>84</students>
+        </div1>
+        <div2>
+            <hr>rana</hr>
+            <students>84</students>
+        </div2>
+        <div3>
+            <hr>bipin jadav</hr>
+            <students>84</students>
+        </div3>
+        <div4>
+            <hr>Piyush arora</hr>
+            <students>84</students>
+        </div4>
+    </bba>
+</svpatel>
