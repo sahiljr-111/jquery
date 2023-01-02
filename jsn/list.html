@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car list</title>
+</head>
+<body>
+    <ol>
+        <li id="li1"></li>
+        <li id="li2"></li>
+        <li id="li3"></li>
+        <li id="li4"></li>
+    </ol>
+
+    <script>
+        let cars = '["Ford","mini","VW","supra"]';
+        let carob = JSON.parse(cars);
+
+        document.getElementById('li1').innerHTML = carob[0];
+        document.getElementById('li2').innerHTML = carob[1];
+        document.getElementById('li3').innerHTML = carob[2];
+        document.getElementById('li4').innerHTML = carob[3];
+    </script>
+</body>
+</html>
