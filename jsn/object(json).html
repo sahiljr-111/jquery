@@ -7,27 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>objects(using for loops)</title>
 </head>
-
+<style>
+    table{
+        display: inline-block;
+    }
+</style>
 <body>
-    <p id="display"></p>
-    <p id="demo"></p>
-
     <script>
-        const emp = '{"Name":"John", "Age":30, "Car":null}';
+        const emp = '{"Name":"Sahil", "Age":20, "Town":"Velanja"}';
         const empob = JSON.parse(emp);
-
-        let disp = "";
         for (const i in empob) {
-            disp += i + ", ";
+            document.write("<table border=1><tr><td>"+i+"<tr><td>"+empob[i]+"</td></tr></td></tr></table>");
         }
-
-        let dispval = "";
-        for (const i in empob) {
-            dispval += empob[i] + ", ";
-        }
-
-        document.getElementById('display').innerHTML = disp;
-        document.getElementById('demo').innerHTML = dispval;
     </script>
 </body>
 
